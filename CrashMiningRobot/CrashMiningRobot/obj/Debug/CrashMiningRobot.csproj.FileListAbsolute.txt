@@ -8,3 +8,11 @@ F:\Job\CSharp\Gamdom\CrashMiningRobot\CrashMiningRobot\obj\Debug\CrashMiningRobo
 C:\Users\KOKOS\Desktop\GamdomBot\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\bin\Debug\CrashMiningRobot.exe.config
 C:\Users\KOKOS\Desktop\GamdomBot\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\obj\Debug\CrashMiningRobot.exe
 C:\Users\KOKOS\Desktop\GamdomBot\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\obj\Debug\CrashMiningRobot.pdb
+C:\Users\KOKOS\Desktop\GamdomBot\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\bin\Debug\CrashMiningRobot.exe
+C:\Users\KOKOS\Desktop\GamdomBot\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\bin\Debug\CrashMiningRobot.pdb
+C:\Users\KOKOS\Desktop\GamdomBot\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\bin\Debug\WebDriver.dll
+C:\Users\KOKOS\Desktop\GamdomBot\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\bin\Debug\WebDriver.Support.dll
+C:\Users\KOKOS\Desktop\GamdomBot\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\bin\Debug\WebDriver.xml
+C:\Users\KOKOS\Desktop\GamdomBot\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\bin\Debug\WebDriver.Support.xml
+C:\Users\KOKOS\Desktop\GamdomBot\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\obj\Debug\CrashMiningRobot.csprojResolveAssemblyReference.cache
+C:\Users\KOKOS\Desktop\GamdomBot\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\obj\Debug\CrashMiningRobot.csproj.CoreCompileInputs.cache
