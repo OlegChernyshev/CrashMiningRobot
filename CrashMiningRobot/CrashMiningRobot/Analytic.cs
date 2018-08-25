@@ -22,16 +22,17 @@ namespace CrashMiningRobot
     {
         #region Переменные
         // Изночально заданные значения
-        public int Bank { get; private set; } // банк на который мы играем
-        public int Rate { get; private set; } // оптимальная ставка которую нужно делать
+        public int Bank { get; set; } // банк на который мы играем
+        public int Rate { get; set; } // оптимальная ставка которую нужно делать
+        public double Coefficient { get; set; }
 
-        private double Min = 0; // Минимально возможный коэф. краша
-        private double Max = 0; // Максимально возможный коэф. краша
+        public double Min { get; set; } // Минимально возможный коэф. краша
+        public double Max { get; set; } // Максимально возможный коэф. краша
 
         // текущие значение во время игры
-        public double bank { get; private set; } // текущий банк
-        public double rate { get; private set; } // текущая ставка
-        public double crash { get; private set; } // последний краш
+        public double bank { get; set; } // текущий банк
+        public double rate { get; set; } // текущая ставка
+        public double crash { get; set; } // последний краш
         Random random = null;
         #endregion
 
@@ -47,6 +48,7 @@ namespace CrashMiningRobot
         {
             Bank = bank;
             Rate = rate;
+            Coefficient = coefficient;
             Min = min;
             Max = max;
 
@@ -79,7 +81,7 @@ namespace CrashMiningRobot
             else
             {
                 bank -= rate;
-                rate *= 1.2;
+                rate *= Coefficient;
                 bet.rate = (int)Math.Round(rate);
             }
             crash = Crash(Min, Max);
