@@ -99,6 +99,7 @@ namespace CrashMiningRobot
         /// Генерация краша
         private double Crash(double min, double max)
         {
+            random = new Random();
             double value = min - random.NextDouble() * (min - max);
             return Math.Round(value, 2);
         }

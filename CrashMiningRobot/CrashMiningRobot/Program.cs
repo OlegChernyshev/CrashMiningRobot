@@ -11,6 +11,7 @@ namespace CrashMiningRobot
     {
         static void Main(string[] args)
         {
+            Robot bot = new Robot();
             Analytic analytic = null;
             string str = String.Empty;
 
@@ -45,6 +46,23 @@ round:
             str = Console.ReadLine();
             if (str == "Y" || str == "y") // Здесь происходит запуск работы
             {
+                bot.Start();
+                Console.WriteLine("bot : Do You press password on website?");
+                Console.WriteLine("Y/N : ");
+                str = Console.ReadLine();
+                if (str == "Y" || str == "y")
+                {
+                    bot.Infinity_cheak();
+                    BET b = analytic.GetBET();
+                    bot.Bet(b.rate, b.crash);
+
+                    while (true)
+                    {
+                        bot.Infinity_cheak();
+                        BET bet = analytic.Processing(bot.cheak_win(b.crash));
+                        bot.Bet(b.rate, b.crash);
+                    }
+                }
                 /// участок кода отвечающий за обработку...
             }
             else if (str == "N" || str == "n") // Исправление невернно введенных данных
