@@ -5,3 +5,6 @@ F:\Job\CSharp\Gamdom\CrashMiningRobot\CrashMiningRobot\obj\Debug\CrashMiningRobo
 F:\Job\CSharp\Gamdom\CrashMiningRobot\CrashMiningRobot\obj\Debug\CrashMiningRobot.csproj.CoreCompileInputs.cache
 F:\Job\CSharp\Gamdom\CrashMiningRobot\CrashMiningRobot\obj\Debug\CrashMiningRobot.exe
 F:\Job\CSharp\Gamdom\CrashMiningRobot\CrashMiningRobot\obj\Debug\CrashMiningRobot.pdb
+C:\Users\KOKOS\Desktop\GamdomBot\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\bin\Debug\CrashMiningRobot.exe.config
+C:\Users\KOKOS\Desktop\GamdomBot\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\obj\Debug\CrashMiningRobot.exe
+C:\Users\KOKOS\Desktop\GamdomBot\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\obj\Debug\CrashMiningRobot.pdb
