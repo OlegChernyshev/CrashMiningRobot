@@ -1,0 +1,11 @@
+F:\Job\CSharp\Gamdom\GitHub\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\bin\Release\CrashMiningRobot.exe.config
+F:\Job\CSharp\Gamdom\GitHub\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\bin\Release\CrashMiningRobot.exe
+F:\Job\CSharp\Gamdom\GitHub\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\bin\Release\CrashMiningRobot.pdb
+F:\Job\CSharp\Gamdom\GitHub\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\bin\Release\WebDriver.dll
+F:\Job\CSharp\Gamdom\GitHub\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\bin\Release\WebDriver.Support.dll
+F:\Job\CSharp\Gamdom\GitHub\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\bin\Release\WebDriver.xml
+F:\Job\CSharp\Gamdom\GitHub\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\bin\Release\WebDriver.Support.xml
+F:\Job\CSharp\Gamdom\GitHub\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\obj\Release\CrashMiningRobot.csproj.CoreCompileInputs.cache
+F:\Job\CSharp\Gamdom\GitHub\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\obj\Release\CrashMiningRobot.csproj.CopyComplete
+F:\Job\CSharp\Gamdom\GitHub\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\obj\Release\CrashMiningRobot.exe
+F:\Job\CSharp\Gamdom\GitHub\CrashMiningRobot\CrashMiningRobot\CrashMiningRobot\obj\Release\CrashMiningRobot.pdb

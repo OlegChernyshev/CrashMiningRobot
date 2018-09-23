@@ -28,7 +28,7 @@ namespace CrashMiningRobot
             driver.Navigate().GoToUrl("https://gamdom.com/crash");
         }
 
-        public void Infinity_cheak() //проверка на конец партии
+        public void Infinity_cheak(BET bet) //проверка на конец партии
         {
             //access = 0;
             try { Hash = driver.FindElement(By.XPath("(//INPUT[@type='input'])")).GetAttribute("value").ToString(); 
@@ -37,18 +37,18 @@ namespace CrashMiningRobot
             }
             catch { RobotLogs.Add("ERROR: Чтение HASH — " + System.DateTime.Now.ToLongTimeString()); }
             //access = 1;
-            Console.WriteLine(cheak_win(st.crash));
+            Console.WriteLine(cheak_win(bet.crash));
             Thread.Sleep(500);
 
         }
-        public void Bet(int rate, double crash) //ставим
+        public void Bet(BET bet) //ставим
         {
             Thread.Sleep(1200);
             var txtBet = driver.FindElement(By.Name("bet-size"));//находим элемент "кол-во ставки"
             try
             {
                 txtBet.Clear();
-                txtBet.SendKeys(Convert.ToString(rate));
+                txtBet.SendKeys(Convert.ToString(bet.rate));
             }
             catch { }
             Thread.Sleep(500);
@@ -56,7 +56,7 @@ namespace CrashMiningRobot
             try
             {
                 txtBetC.Clear();
-                txtBetC.SendKeys(Convert.ToString(crash));
+                txtBetC.SendKeys(Convert.ToString(bet.crash));
             }
             catch { }
             Thread.Sleep(1000);

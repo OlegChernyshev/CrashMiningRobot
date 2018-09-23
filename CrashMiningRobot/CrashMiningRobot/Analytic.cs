@@ -75,8 +75,7 @@ namespace CrashMiningRobot
             if (win)
             {
                 bank += rate * crash;
-                rate = 0;
-                bet.rate = Rate;
+                rate = bet.rate = Rate;
             }
             else
             {
@@ -101,6 +100,7 @@ namespace CrashMiningRobot
         {
             random = new Random();
             double value = min - random.NextDouble() * (min - max);
+            Console.WriteLine(value);
             return Math.Round(value, 2);
         }
     }

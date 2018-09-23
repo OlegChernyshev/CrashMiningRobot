@@ -52,15 +52,17 @@ round:
                 str = Console.ReadLine();
                 if (str == "Y" || str == "y")
                 {
-                    bot.Infinity_cheak();
                     BET b = analytic.GetBET();
-                    bot.Bet(b.rate, b.crash);
+                    bot.Infinity_cheak(b);
+                    bot.Bet(b);
 
                     while (true)
                     {
-                        bot.Infinity_cheak();
+                        
+                        bot.Infinity_cheak(b);
                         BET bet = analytic.Processing(bot.cheak_win(b.crash));
-                        bot.Bet(b.rate, b.crash);
+                        bot.Bet(bet);
+                        b = bet;
                     }
                 }
                 /// участок кода отвечающий за обработку...
